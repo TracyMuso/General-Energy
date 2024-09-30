@@ -1,20 +1,95 @@
-import type { Config } from "tailwindcss";
+import type { Config } from 'tailwindcss'
 
 const config: Config = {
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    './pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './components/**/*.{js,ts,jsx,tsx,mdx}',
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        brown: {
+          100: '#F8DEB0',
+          200: '#F5CCA0',
+          300: '#B3895D',
+          400: '#E48F45',
+          500: '#994D1C',
+          600: '#6B240C',
+          900: '#391D0C',
+        },
+        orange: {
+          50: '#FDFBF4',
+          100: '#FBF6E9',
+          200: '#F9F2DE',
+          300: '#F4E4BD',
+          400: '#ECD391',
+          500: '#E5C166',
+          600: '#DAA624',
+        },
+        gray: {
+          50: '#F9FAFB',
+          100: '#F3F4F6',
+          200: '#E5E7EB',
+          300: '#D1D5DB',
+          400: '#9CA3AF',
+          500: '#6B7280',
+          600: '#4B5563',
+          700: '#374151',
+          800: '#1F2937',
+          900: '#111827',
+        },
+        'primary-gray': '#DADADA',
+        'gray-mid': '#5B5B5B',
+        'gray-hover': '#F9F9F9',
+      },
+      fontFamily: {
+        Roboto: ['Roboto', 'sans-serif'],
+        Inria: ['Inria Serif', 'serif'],
+        Inter: ['Inter', 'sans-serif'],
+      },
+      lineHeight: {
+        10: '1rem',
+        11: '2rem',
+        12: '3rem',
+        14: '4rem',
+        16: '5rem',
+        18: '6rem',
+      },
+      fontSize: {
+        xs: '0.7rem',
+        sm: '0.85rem',
+        m: '0.9375rem',
+        base: '1rem',
+        xl: '1.25rem',
+        '2xl': '1.6rem',
+        '3xl': '2.1rem',
+        '4xl': '2.7rem',
+        '5xl': '3.3rem',
+      },
+      fontWeight: {
+        thin: '100',
+        hairline: '100',
+        extralight: '200',
+        light: '300',
+        normal: '400',
+        medium: '500',
+        bold: '600',
+        extrabold: '700',
+        'extra-bold': '700',
+      },
+      borderRadius: {
+        none: '0',
+        DEFAULT: '0.25rem',
+        md: '0.5rem',
+        lg: '0.75rem',
+        xl: '1rem',
+        '2xl': '1.25rem',
+        '3xl': '1.5rem',
+        '4xl': '1.75rem',
       },
     },
   },
   plugins: [],
-};
-export default config;
+}
+export default config

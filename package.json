@@ -17,9 +17,6 @@
     "test:watch": "jest --watch"
   },
   "dependencies": {
-    "@storybook/addon-styling-webpack": "^1.0.0",
-    "@storybook/addon-themes": "^8.2.3",
-    "@storybook/test": "^8.2.3",
     "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18"
