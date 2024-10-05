@@ -2,7 +2,7 @@ import { type NavLinkType } from '@/types'
 
 const Str = 'string'
 
-export const NavLinks: NavLinkType[] = [
+export const NavLinksData: NavLinkType[] = [
   {
     name: 'Residential',
     url: '/',

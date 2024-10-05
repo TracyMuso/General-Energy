@@ -1,11 +1,15 @@
 import Link from 'next/link'
-import { NavLinks } from '@/constants/data/LandingPage'
+import { NavLinksData } from '@/constants/data/LandingPage'
 
-const Nav = () => {
+const NavLinks = () => {
   return (
-    <div className="hidden lg:flex justify-between w-2/3">
-      {NavLinks.map((item, idx) => (
-        <Link href={item.url} key={item.id}>
+    <div className="hidden md:flex justify-between w-2/5">
+      {NavLinksData.map((item) => (
+        <Link
+          className=" text-brown-900 hover:text-white"
+          href={item.url}
+          key={item.id}
+        >
           {item.name}
         </Link>
       ))}
@@ -13,4 +17,4 @@ const Nav = () => {
   )
 }
 
-export default Nav
+export default NavLinks
