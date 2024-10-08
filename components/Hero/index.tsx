@@ -6,12 +6,13 @@ const Hero = () => {
       <div className="flex items-center justify-between">
         <div className="flex flex-col gap-9 w-3/5">
           <h1 className="text-5xl font-extrabold text-brown-900 leading-14">
-            Powering your home with green energy
+            Powering your home with 
+            <span className='text-green-600'> green</span> energy
           </h1>
-          <p className="text-xl text-brown-600 font-Inria w-4/5">
+          <p className="text-xl text-brown-800 font-Inria w-4/5">
             General Energy is dedicated to providing reliable and sustainable
             energy for both residential and commercial clients. Save up on
-            energy costs with flexible payment plans and your No 1 solar energy
+            energy costs with <span className='italic'> flexible</span> payment plans and your No 1 solar energy
             company.
           </p>
           <button className="w-[230px] text-xl rounded-xl bg-yellow-500 text-white font-bold px-8 py-4">

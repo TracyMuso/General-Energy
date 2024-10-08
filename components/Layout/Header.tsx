@@ -10,8 +10,8 @@ const Header = () => {
         </Link>
         <NavLinks />
         <div className="p-1 gap-1 flex flex-col self-start justify-between">
-          <span className="text-m text-brown-900">+260 778 483 992</span>
-          <button className="bg-white rounded-xl px-4 py-2 text-brown-900 font-bold font-Roboto">
+          <span className="text-m text-brown-800">+260 778 483 992</span>
+          <button className="bg-white rounded-xl px-4 py-2 text-brown-800 font-bold font-Roboto">
             Get in Touch!
           </button>
         </div>
