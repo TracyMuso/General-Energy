@@ -4,7 +4,7 @@ const Packages = () => {
   return (
     <section className="h-[100vh] px-16">
       <div>
-        <div>
+        <div className="w-[540px]">
           <PackageCard />
         </div>
         <div>right card</div>
