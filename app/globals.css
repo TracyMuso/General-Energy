@@ -70,3 +70,13 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+p, li, span {
+  color: #481401;
+  font-family: 'Inria Serif', Inria, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #391D0C;
+  font-family: 'Roboto', sans-serif;
+}
