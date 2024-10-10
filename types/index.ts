@@ -4,6 +4,16 @@ export interface NavLinkType {
   id: string
 }
 
+export interface PackagesType {
+  link: string;
+  title: string;
+  icon: string; 
+  text: string; 
+  point1: string; 
+  point2: string; 
+  point3: string; 
+}
+
 type Energy = string
 
 export default Energy
