@@ -2,6 +2,7 @@ import './globals.css'
 import Header from '@/components/Layout/Header'
 import Hero from '@/components/Hero'
 import About from '@/components/About'
+import Services from '@/components/Services'
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Header />
       <main className="flex flex-col items-center w-full m-0 p-0">
         <Hero />
+        <Services />
         <About />
       </main>
     </div>
