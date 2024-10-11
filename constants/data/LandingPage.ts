@@ -4,18 +4,13 @@ const Str = 'string'
 
 export const NavLinksData: NavLinkType[] = [
   {
-    name: 'Residential',
+    name: 'Home',
     url: '/',
     id: '1',
   },
   {
-    name: 'Commercial',
-    url: '/commercial',
-    id: '2',
-  },
-  {
-    name: 'Products',
-    url: '/products',
+    name: 'Services',
+    url: '/services',
     id: '3',
   },
   {
