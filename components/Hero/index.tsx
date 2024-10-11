@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 const Hero = () => {
   return (
     <section className="px-0 py-11 w-full hero-section h-[83vh]">
