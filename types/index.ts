@@ -4,6 +4,11 @@ export interface NavLinkType {
   id: string
 }
 
+export interface ServiceCardType {
+  title: string;
+  text: string;
+}
+
 export interface PackagesType {
   link: string;
   title: string;
