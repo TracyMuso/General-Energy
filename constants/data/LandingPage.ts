@@ -6,22 +6,18 @@ export const NavLinksData: NavLinkType[] = [
   {
     name: 'Home',
     url: '/',
-    id: '1',
   },
   {
     name: 'Services',
     url: '/services',
-    id: '3',
   },
   {
     name: 'About',
     url: '/about',
-    id: '4',
   },
   {
     name: 'Contact',
     url: '/contact',
-    id: '5',
   },
 ]
 
@@ -70,6 +66,77 @@ export const PackagesData: PackagesType[] = [
     point1: 'Save up to 70% on taxes',
     point2: 'Buy or lease options',
     point3: 'Free consultaion'
+  },
+]
+
+interface FooterLink {
+  title: string;
+  links: NavLinkType[];
+}
+
+export const FooterLinks: FooterLink[] = [
+  {
+    title: "Company",
+    links: [
+      {
+        name: "About Us",
+        url: "#",
+      },
+      {
+        name: "Services",
+        url: "#",
+      },
+      {
+        name: "Products",
+        url: "#",
+      },
+      {
+        name: "Careers",
+        url: "#",
+      },
+    ],
+  },
+  {
+    title: "Legal",
+    links: [
+      {
+        name: "Privacy Policy",
+        url: "#",
+      },
+      {
+        name: "Shipping Policy",
+        url: "#",
+      },
+      {
+        name: "Terms of Use",
+        url: "#",
+      },
+      {
+        name: "Legal Disclaimer",
+        url: "#",
+      },
+    ],
+  },
+  {
+    title: "Resources",
+    links: [
+      {
+        name: "Articles",
+        url: "#",
+      },
+      {
+        name: "Contact",
+        url: "#",
+      },
+      {
+        name: "Sitemap",
+        url: "#",
+      },
+      {
+        name: "Blog",
+        url: "#",
+      },
+    ],
   },
 ]
 
