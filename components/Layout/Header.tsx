@@ -1,12 +1,13 @@
 import NavLinks from './NavMenu'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Header = () => {
   return (
     <header className="w-full px-8 font-Inria bg-yellow-400">
       <nav className="w-full flex justify-between items-center py-4">
         <Link href="/" className="flex items-center">
-          <span className="text-3xl font-bold text-white">G.E</span>
+          <Image src={'/icons/logo1.png'} width={120} height={80} alt='logo' />
         </Link>
         <NavLinks />
         <div className="p-1 gap-1 flex flex-col self-start justify-between">

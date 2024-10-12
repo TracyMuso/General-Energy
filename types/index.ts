@@ -1,7 +1,11 @@
 export interface NavLinkType {
   name: string
   url: string
-  id: string
+}
+
+export interface ServiceCardType {
+  title: string;
+  text: string;
 }
 
 export interface PackagesType {

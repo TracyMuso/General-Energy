@@ -3,12 +3,12 @@ import { NavLinksData } from '@/constants/data/LandingPage'
 
 const NavLinks = () => {
   return (
-    <div className="hidden md:flex justify-between w-2/5">
-      {NavLinksData.map((item) => (
+    <div className="hidden md:flex justify-between w-1/4">
+      {NavLinksData.map((item, idx) => (
         <Link
           className=" text-brown-800 hover:text-white"
           href={item.url}
-          key={item.id}
+          key={idx}
         >
           {item.name}
         </Link>

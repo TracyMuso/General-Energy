@@ -1,7 +1,10 @@
 import './globals.css'
 import Header from '@/components/Layout/Header'
 import Hero from '@/components/Hero'
-import Packages from '@/components/Packages'
+import About from '@/components/About'
+import Services from '@/components/Services'
+import Contact from '@/components/Contact'
+import Footer from '@/components/Layout/Footer'
 
 export default function Home() {
   return (
@@ -9,8 +12,11 @@ export default function Home() {
       <Header />
       <main className="flex flex-col items-center w-full m-0 p-0">
         <Hero />
-        <Packages />
+        <Services />
+        <About />
+        <Contact />
       </main>
+      <Footer />
     </div>
   )
 }

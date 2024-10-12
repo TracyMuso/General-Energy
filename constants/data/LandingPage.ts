@@ -1,32 +1,50 @@
-import type { PackagesType, NavLinkType } from '@/types'
+import type { PackagesType, NavLinkType, ServiceCardType } from '@/types'
 
 const Str = 'string'
 
 export const NavLinksData: NavLinkType[] = [
   {
-    name: 'Residential',
+    name: 'Home',
     url: '/',
-    id: '1',
   },
   {
-    name: 'Commercial',
-    url: '/commercial',
-    id: '2',
-  },
-  {
-    name: 'Products',
-    url: '/products',
-    id: '3',
+    name: 'Services',
+    url: '/services',
   },
   {
     name: 'About',
     url: '/about',
-    id: '4',
   },
   {
     name: 'Contact',
     url: '/contact',
-    id: '5',
+  },
+]
+
+export const ServiceCardData: ServiceCardType[] = [
+  {
+    title: 'Solar Systems',
+    text: 'Power up your home or business with solar energy',
+  },
+  {
+    title: 'Fire Hydrants',
+    text: 'Get a safety measure in case of fires',
+  },
+  {
+    title: 'Lighting',
+    text: 'Decorative and public lighting of all kinds',
+  },
+  {
+    title: 'Charging stations',
+    text: 'Charge your electric vehicles safely and efficiently',
+  },
+  {
+    title: 'Home Automation',
+    text: 'Get your smart home today with the best tech',
+  },
+  {
+    title: 'Traffic Lights',
+    text: 'Ensure the safety of the general public',
   },
 ]
 
@@ -48,6 +66,77 @@ export const PackagesData: PackagesType[] = [
     point1: 'Save up to 70% on taxes',
     point2: 'Buy or lease options',
     point3: 'Free consultaion'
+  },
+]
+
+interface FooterLink {
+  title: string;
+  links: NavLinkType[];
+}
+
+export const FooterLinks: FooterLink[] = [
+  {
+    title: "Company",
+    links: [
+      {
+        name: "About Us",
+        url: "#",
+      },
+      {
+        name: "Services",
+        url: "#",
+      },
+      {
+        name: "Products",
+        url: "#",
+      },
+      {
+        name: "Careers",
+        url: "#",
+      },
+    ],
+  },
+  {
+    title: "Legal",
+    links: [
+      {
+        name: "Privacy Policy",
+        url: "#",
+      },
+      {
+        name: "Shipping Policy",
+        url: "#",
+      },
+      {
+        name: "Terms of Use",
+        url: "#",
+      },
+      {
+        name: "Legal Disclaimer",
+        url: "#",
+      },
+    ],
+  },
+  {
+    title: "Resources",
+    links: [
+      {
+        name: "Articles",
+        url: "#",
+      },
+      {
+        name: "Contact",
+        url: "#",
+      },
+      {
+        name: "Sitemap",
+        url: "#",
+      },
+      {
+        name: "Blog",
+        url: "#",
+      },
+    ],
   },
 ]
 
