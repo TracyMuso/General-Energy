@@ -1,4 +1,4 @@
-import type { PackagesType, NavLinkType } from '@/types'
+import type { PackagesType, NavLinkType, ServiceCardType } from '@/types'
 
 const Str = 'string'
 
@@ -22,6 +22,33 @@ export const NavLinksData: NavLinkType[] = [
     name: 'Contact',
     url: '/contact',
     id: '5',
+  },
+]
+
+export const ServiceCardData: ServiceCardType[] = [
+  {
+    title: 'Solar Systems',
+    text: 'Power up your home or business with solar energy',
+  },
+  {
+    title: 'Fire Hydrants',
+    text: 'Get a safety measure in case of fires',
+  },
+  {
+    title: 'Lighting',
+    text: 'Decorative and public lighting of all kinds',
+  },
+  {
+    title: 'Charging stations',
+    text: 'Charge your electric vehicles safely and efficiently',
+  },
+  {
+    title: 'Home Automation',
+    text: 'Get your smart home today with the best tech',
+  },
+  {
+    title: 'Traffic Lights',
+    text: 'Ensure the safety of the general public',
   },
 ]
 
