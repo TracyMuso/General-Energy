@@ -1,7 +1,6 @@
 export interface NavLinkType {
   name: string
   url: string
-  id: string
 }
 
 export interface ServiceCardType {
