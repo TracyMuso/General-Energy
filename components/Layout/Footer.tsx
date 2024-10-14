@@ -5,7 +5,7 @@ import { FooterLinks } from "@/constants/data/LandingPage";
 const Footer = () => {
   return (
     <div className="bg-brown-200 w-full">
-      <footer className="w-full flex items-center px-24 py-12 justify-between">
+      <footer className="w-full flex px-24 py-12 justify-between items-start">
         <div className="w-[350px] flex flex-col items-center gap-6 px-6">
           <Image src={'/icons/logo1.png'} width={150} height={100} alt="logo" />
           <div className="flex flex-col items-center">
@@ -25,8 +25,8 @@ const Footer = () => {
             </div>
             <div className="flex flex-col items-center py-4">
               <strong className="text-brown-900 text-xl pb-2">Our office</strong>
-              <span >Haut Katanga, ler road, plot 24</span>
-              <span>+260 779 234 456</span>
+              <span >14, rout Kipushi, Lubumbashi RD Congo</span>
+              <span>+243 808 348 094</span>
               <span>8am -9am </span>
             </div>
           </div>

@@ -46,6 +46,18 @@ export const ServiceCardData: ServiceCardType[] = [
     title: 'Traffic Lights',
     text: 'Ensure the safety of the general public',
   },
+  {
+    title: 'Construction',
+    text: 'We have the best civil engineers for your needs',
+  },
+  {
+    title: 'Extension cords',
+    text: 'We design and manufacture extension cords',
+  },
+  {
+    title: 'Roller Shutter',
+    text: 'We motorize all types of manual roller shutters.',
+  },
 ]
 
 export const PackagesData: PackagesType[] = [

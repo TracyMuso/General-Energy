@@ -1,6 +1,6 @@
 const Contact = () => {
   return (
-    <section className="w-full flex flex-col items-center gap-9 py-20">
+    <section id="contact" className="w-full flex flex-col items-center gap-9 py-20">
       <div className="mx-auto">
         <h2 className="text-5xl font-bold">Get in Touch</h2>
       </div>
@@ -10,9 +10,9 @@ const Contact = () => {
           <p className="text-xl text-center">Please reach out to us. We will get back to you as soon as we can! <br />Or visit our office</p>
           <div className="mx-auto flex flex-col items-center">
             <strong className="text-xl pb-3 text-brown-800">Our office in Haut-Katanga</strong>
-            <span>General Energy, Haut-Katanga, larry Road Plot 123 </span>
-            <span>+260 778 452 887</span>
-            <span>info@generalenergy.com</span>
+            <span>14, rout Kipushi, Lubumbashi RD Congo</span>
+            <span>+243 808 348 094</span>
+            <span>info@generalenergy.cd</span>
             <span>
             Open from 8am to 7pm
           </span>
