@@ -78,6 +78,18 @@ body {
   background-color: #F8DEB0;
 }
 
+.service-top {
+  background: url('/images/pexels-mikael-blomkvist-8961066.jpg');
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-position: 1% 65%;
+  background-size: cover;
+}
+
+.service-hero-text {
+  backdrop-filter: blur(3px);
+}
+
 p, li, span {
   color: #481401;
   font-family: 'Inria Serif', Inria, serif;
