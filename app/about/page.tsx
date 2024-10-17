@@ -8,7 +8,7 @@ const AboutPage = () => {
   return (
     <div className="w-full flex flex-col">
       <Header />
-      <section className="bg-brown-100 pb-16">
+      <section className="bg-brown-100 pb-16 w-full">
         <div className="py-12 flex flex-col items-center">
           <h1 className="text-5xl font-bold pb-5">Our Story</h1>
           <div className="w-11/12 px-8">
@@ -31,7 +31,7 @@ const AboutPage = () => {
           </p>
         </div>
       </section>
-      <section className="bg-white flex flex-col items-center gap-5 py-16">
+      <section className="bg-white flex flex-col items-center gap-5 py-16 w-full">
         <h1 className="text-4xl font-bold text-center">Book your consultation today</h1>
         <Contact />
       </section>
