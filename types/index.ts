@@ -20,6 +20,7 @@ export interface PackagesType {
 
 export interface ServiceCardInterface {
   maintext: string;
+  icon: string;
   img: string;
   point1: string;
   point2: string;
