@@ -19,6 +19,8 @@ export interface PackagesType {
 }
 
 export interface ServiceCardInterface {
+  id: string;
+  service: string;
   maintext: string;
   icon: string;
   img: string;
