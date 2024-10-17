@@ -2,10 +2,12 @@ import Link from 'next/link';
 import Image from 'next/image';
 import '../globals.css'
 import Header from '@/components/Layout/Header';
+import ServiceLinks from '@/components/Services/serviceLinks';
 
 export const ServicesPage = () => {
   return (
     <div className="w-full flex flex-col">
+      <ServiceLinks />
       <Header />
       <section className='w-full py-16 px-12 service-top h-[83vh]'>
         <div className='flex flex-col justify-between service-hero-text w-2/5 p-6 rounded-xl h-[400px]'>
