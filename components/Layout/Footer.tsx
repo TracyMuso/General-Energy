@@ -25,7 +25,7 @@ const Footer = () => {
             </div>
             <div className="flex flex-col items-center py-4">
               <strong className="text-brown-900 text-xl pb-2">Our office</strong>
-              <span >14, rout Kipushi, Lubumbashi RD Congo</span>
+              <span className="text-center">14, rout Kipushi, Lubumbashi RD Congo</span>
               <span>+243 808 348 094</span>
               <span>8am -9am </span>
             </div>

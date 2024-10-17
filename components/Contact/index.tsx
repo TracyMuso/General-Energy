@@ -1,9 +1,6 @@
 const Contact = () => {
   return (
-    <section id="contact" className="w-full flex flex-col items-center gap-9 py-20">
-      <div className="mx-auto">
-        <h2 className="text-5xl font-bold">Get in Touch</h2>
-      </div>
+    <div id="contact" className="w-full flex flex-col items-center gap-9 py-6">
       <div className="flex items-center m-0 gap-10 px-20 w-full">
         <div className="w-1/2 flex flex-col items-center gap-9">
           <h3 className="text-3xl font-bold text-brown-400">Lets Chat</h3>
@@ -51,7 +48,7 @@ const Contact = () => {
         <button className="w-full bg-yellow-400 text-white px-4 py-2 rounded-md" type="submit">Send Message</button>
       </form>
       </div>
-    </section>
+    </div>
   )
 }
 
