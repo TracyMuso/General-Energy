@@ -8,12 +8,12 @@ export const NavLinksData: NavLinkType[] = [
     url: '/',
   },
   {
-    name: 'Services',
-    url: '/services',
-  },
-  {
     name: 'About',
     url: '/about',
+  },
+  {
+    name: 'Services',
+    url: '/services',
   },
   {
     name: 'Contact',
