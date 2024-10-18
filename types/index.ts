@@ -18,6 +18,19 @@ export interface PackagesType {
   point3: string; 
 }
 
+export interface ServiceCardInterface {
+  id: string;
+  service: string;
+  maintext: string;
+  icon: string;
+  img: string;
+  point1: string;
+  point2: string;
+  point3: string;
+  point4: string;
+  link: string;
+}
+
 type Energy = string
 
 export default Energy

@@ -75,7 +75,24 @@ body {
   background: url('/images/man-and-woman-at-construction-site.jpg');
   background-position: right;
   background-repeat: no-repeat;
+  background-color: #F8DEB0;
+}
+
+.service-top {
+  background: url('/images/pexels-mikael-blomkvist-8961066.jpg');
+  background-repeat: no-repeat;
   background-color: #fff;
+  background-position: 1% 58%;
+  background-size: cover;
+}
+
+.contact-top {
+  background: rgb(248,222,176);
+  background: radial-gradient(circle, rgba(248,222,176,1) 0%, rgba(255,211,96,1) 100%); 
+}
+
+.service-hero-text {
+  backdrop-filter: blur(3px);
 }
 
 p, li, span {

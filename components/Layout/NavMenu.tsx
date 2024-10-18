@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { NavLinksData } from '@/constants/data/LandingPage'
 
-const NavLinks = () => {
+const Nav = () => {
   return (
     <div className="hidden md:flex justify-between w-1/4">
       {NavLinksData.map((item, idx) => (
@@ -17,4 +17,4 @@ const NavLinks = () => {
   )
 }
 
-export default NavLinks
+export default Nav;

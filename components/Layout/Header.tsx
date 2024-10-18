@@ -4,17 +4,17 @@ import Image from 'next/image'
 
 const Header = () => {
   return (
-    <header className="w-full px-8 font-Inria bg-yellow-400">
-      <nav className="w-full flex justify-between items-center py-4">
+    <header className="w-full px-8 font-Inria bg-yellow-400 h-[17vh]">
+      <nav id='nav' className="w-full flex justify-between items-center py-4">
         <Link href="/" className="flex items-center">
           <Image src={'/icons/logo1.png'} width={120} height={80} alt='logo' />
         </Link>
         <NavLinks />
         <div className="p-1 gap-1 flex flex-col self-start justify-between">
           <span className="text-m text-brown-800">+260 778 483 992</span>
-          <button className="bg-white rounded-xl px-4 py-2 text-brown-800 font-bold font-Roboto">
+          <Link href={'#contact'} className="bg-white rounded-xl px-4 py-2 text-brown-800 font-bold font-Roboto">
             Get in Touch!
-          </button>
+          </Link>
         </div>
       </nav>
     </header>
