@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Header = () => {
   return (
-    <header className="w-full px-8 font-Inria bg-yellow-400">
+    <header className="w-full px-8 font-Inria bg-yellow-400 h-[17vh]">
       <nav id='nav' className="w-full flex justify-between items-center py-4">
         <Link href="/" className="flex items-center">
           <Image src={'/icons/logo1.png'} width={120} height={80} alt='logo' />
