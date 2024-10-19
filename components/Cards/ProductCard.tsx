@@ -4,9 +4,9 @@ import { ProductCardType } from "@/types";
 
 const ProductCard = ({ productName, img, brand, price }: ProductCardType) => {
   return (
-    <div className="bg-green-100 rounded-xl w-[300px] p-3 flex flex-col gap-3">
-      <Image className="rounded-t-xl" src={img} width={290} height={180} alt="product" />
-      <div className="flex flex-col gap-1">
+    <div className="border bg-yellow-100 border-yellow-300 shadow rounded-xl w-[300px] p-0 flex flex-col gap-3">
+      <Image className="rounded-t-xl" src={img} width={300} height={180} alt="product" />
+      <div className="flex flex-col gap-1 p-3 w-full">
         <h4 className="font-bold text-xl">{productName}</h4>
         <small className="text-blue-900 italic">Brand: {brand}</small>
         <span className="font-semibold py-1">from {price}</span>

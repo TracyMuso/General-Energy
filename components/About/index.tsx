@@ -2,26 +2,19 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <section className="py-20 flex flex-col items-center bg-brown-100">
+    <section className="py-20 w-full flex flex-col items-center bg-yellow-100">
       <article className="text-center w-full px-24">
-        <h1 className="text-5xl font-bold">About Us</h1>
-        <p className="leading-8 py-7">General energy specializes in utility services like installation and maintenance of photovoltaic systems, modern road traffic lights, home automation, public and decorative lighting, fire hydrants, construction and the charging station for electric vehicles. We also design and manufacture extension cords and do cable fabrication. Our products and services are of the highest quality.
-          <br />
-          We intends to position ourselves as market leaders in the utilities field by acquiring the best expertise, modern technologies and embrace sustainability. We work with various clients in both residential and commercial settings. The safety of our customers and the general public is our top priority.
-          
+        <h1 className="text-4xl font-bold">Our Partners</h1>
+        <p className="leading-8 text-xl py-7">
+          We have partnered with some of the best companies that help us acquire the best expertise and modern technologies.
         </p>
       </article>
-      <div className="py-6 flex flex-col gap-6 items-center w-full">
-        <h2 className="text-3xl font-bold pb-5">Our Partners</h2>
-        <div >
-          <div className="flex items-center justify-between gap-5">
-            <Image src={'/icons/settings-svgrepo-com.svg'} width={100} height={60} alt="prtnr" />
-            <Image src={'/icons/settings-svgrepo-com.svg'} width={100} height={60} alt="prtnr" />
-            <Image src={'/icons/settings-svgrepo-com.svg'} width={100} height={60} alt="prtnr" />
-            <Image src={'/icons/settings-svgrepo-com.svg'} width={100} height={60} alt="prtnr" />
-            <Image src={'/icons/settings-svgrepo-com.svg'} width={100} height={60} alt="prtnr" />
-          </div>
-        </div>
+        <div className="flex items-center justify-between gap-5">
+          <span className="text-center text-blue-700 font-semibold p-4 text-2xl">Junc</span>
+          <span className="text-center text-blue-700 font-semibold p-4 text-2xl">Solaire</span>
+          <span className="text-center text-blue-700 font-semibold p-4 text-2xl">Somfy</span>
+          <span className="text-center text-blue-700 font-semibold p-4 text-2xl">Yangtze Solar</span>
+          <span className="text-center text-blue-700 font-semibold p-4 text-2xl">Light</span>
       </div>
     </section>
   )

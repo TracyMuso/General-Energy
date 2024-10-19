@@ -15,15 +15,10 @@ const AboutPage = () => {
           <div className="w-11/12 px-8">
             <p className="text-left">
             General Energy is based in Lubumbashi in the Haut-Katanga province of the DRC. It was founded in 2019 with the aim of making high quality and modern road traffic lights accessible. We aim to do better by incorporating solar energy and meeting the technical requirements of photovoltaic equipment, and hiring the most qualified professionals. We also design and manufature electric <Link href={'/services/cable-fabrication'}>cables </Link> and <Link className="font-bold hover:underline" href={'/products/extension-cords'}>extension cords</Link>.<br /> <br />
-            We carry out the installation and maintenance of:
+          <br /> The worls is facn g an energy deficit and we, as a company want to do something about it.
+          We intends to position ourselves as market leaders in the utilities field by acquiring the best expertise, modern technologies and embrace sustainability. We work with various clients in both residential and commercial settings. The safety of our customers and the general public is our top priority.
             </p>
-              <ul className=" w-2/3 pt-4 list-disc list-inside space-y-3 columns-2">
-              {ProductsAndServices.map((item, idx) => (
-                <li className="font-bold" key={idx}>
-                  <Link className="hover:underline " key={idx} href={item.url}>{item.name}</Link>
-                </li>
-              ))}
-            </ul>
+
           </div>
         </div>
         <div className="w-11/12 px-8">
