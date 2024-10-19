@@ -95,7 +95,7 @@ body {
   backdrop-filter: blur(3px);
 }
 
-p, li, span {
+p, li, span, a {
   color: #000053;
   font-family: 'Inria Serif', Inria, serif;
 }

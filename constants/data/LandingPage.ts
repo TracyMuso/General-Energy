@@ -1,4 +1,4 @@
-import type { PackagesType, NavLinkType, ServiceCardType } from '@/types'
+import type { PackagesType, NavLinkType, ServiceCardType, ProductCardType } from '@/types'
 
 const Str = 'string'
 
@@ -149,6 +149,27 @@ export const FooterLinks: FooterLink[] = [
         url: "#",
       },
     ],
+  },
+]
+
+export const ProductCardDets: ProductCardType[] = [
+  {
+    productName: 'Extension Cords',
+    brand: 'General Energy',
+    price: '$10',
+    img: '/images/extension-cord.png'
+  },
+  {
+    productName: 'Solar panels',
+    brand: 'Soly',
+    price: '$15',
+    img: '/images/solar-panel2.jpg'
+  },
+  {
+    productName: 'Wifi Modules',
+    brand: 'General Energy',
+    price: '$20',
+    img: '/images/wifi-module.jpeg'
   },
 ]
 

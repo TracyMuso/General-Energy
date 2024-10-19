@@ -31,6 +31,13 @@ export interface ServiceCardInterface {
   link: string;
 }
 
+export interface ProductCardType {
+  img: string;
+  productName: string;
+  brand: string;
+  price: string;
+}
+
 type Energy = string
 
 export default Energy
