@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const About = () => {
   return (
     <section className="py-20 w-full flex flex-col items-center bg-yellow-100">

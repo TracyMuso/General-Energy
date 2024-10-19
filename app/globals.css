@@ -104,3 +104,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #000035;
   font-family: 'Roboto', sans-serif;
 }
+
+/* #services-container:nth-child(even) {
+  background-color: #fff699 ;
+} */
