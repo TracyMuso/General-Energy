@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Header from "@/components/Layout/Header"
+import Footer from "@/components/Layout/Footer"
 import Contact from "@/components/Contact"
 import { ProductsAndServices } from "@/constants/data/about"
 import '../globals.css'
@@ -35,6 +36,7 @@ const AboutPage = () => {
         <h1 className="text-4xl font-bold text-center">Book your consultation today</h1>
         <Contact />
       </section>
+      <Footer />
       </div>
   )
 }

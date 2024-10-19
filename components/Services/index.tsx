@@ -1,17 +1,17 @@
-import ServiceCard from "../Cards/ServiceCard";
-import { ServiceCardData } from "@/constants/data/LandingPage";
+import Link from "next/link"
+import { ProductsAndServices } from "@/constants/data/about"
 
 const Services = () => {
   return (
-    <section id="services" className="py-16">
-      <div className="w-3/4 mx-auto gap-10 flex flex-col items-center">
-        <h2 className="text-5xl font-bold">Services</h2>
-        <div className="flex items-center justify-between flex-wrap gap-8">
-          {ServiceCardData.map((item, idx) => (
-            <ServiceCard {...item} key={idx} />
-          ))}
-        </div>
-      </div>
+    <section>
+      <h3></h3>
+      <ul className=" w-2/3 pt-4 list-disc list-inside space-y-3 columns-2">
+              {ProductsAndServices.map((item, idx) => (
+                <li className="font-bold" key={idx}>
+                  <Link className="hover:underline " key={idx} href={item.url}>{item.name}</Link>
+                </li>
+              ))}
+            </ul>
     </section>
   )
 }

@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="bg-brown-200 w-full">
       <footer className="w-full flex px-24 py-12 justify-between items-start">
         <div className="w-[350px] flex flex-col items-center gap-6 px-6">
-          <Image src={'/icons/logo1.png'} width={150} height={100} alt="logo" />
+          <Image src={'/icons/logo2.png'} width={150} height={100} alt="logo" />
           <div className="flex flex-col items-center">
             <div className="flex items-start gap-3 p-3">
               <Link href={'#'}>
