@@ -2,26 +2,26 @@
  export const ProductsAndServices: NavLinkType[] = [
   {
     name: 'Photovoltaic systems',
-    url: '/services/solar'
+    url: '/services/#solar'
   },
   {
     name: 'Traffic lights',
-    url: '/services/traffic-lights'
+    url: '/services/#traffic-lights'
   },
   {
     name: 'Public and decorative lighting',
-    url: '/services/fire-hydrants'
+    url: '/services/#fire-hydrants'
   },
   {
     name: 'Construction',
-    url: '/services/construction'
+    url: '/services/#construction'
   },
   {
     name: 'Manual roller shutters',
-    url: '/services/roller-shutters'
+    url: '/services/#roller-shutters'
   },
   {
     name: 'Home automation',
-    url: '/services/home-automation'
+    url: '/services/#home-automation'
   },
 ]

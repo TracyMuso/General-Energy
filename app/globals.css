@@ -95,12 +95,16 @@ body {
   backdrop-filter: blur(3px);
 }
 
-p, li, span {
-  color: #481401;
+p, li, span, a {
+  color: #000053;
   font-family: 'Inria Serif', Inria, serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #391D0C;
+  color: #000035;
   font-family: 'Roboto', sans-serif;
 }
+
+/* #services-container:nth-child(even) {
+  background-color: #fff699 ;
+} */
