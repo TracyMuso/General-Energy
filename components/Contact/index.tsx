@@ -3,7 +3,7 @@ const Contact = () => {
     <div id="contact" className="w-full flex flex-col items-center gap-9 py-6">
       <div className="flex items-center m-0 gap-10 px-20 w-full">
         <div className="w-1/2 flex flex-col items-center gap-9">
-          <h3 className="text-3xl font-bold ">Lets Chat</h3>
+          <h3 className="text-3xl font-bold text-blue-300">Lets Chat</h3>
           <p className="text-xl text-center">Please reach out to us. We will get back to you as soon as we can! <br />Or visit our office</p>
           <div className="mx-auto flex flex-col items-center">
             <strong className="text-xl pb-3 text-blue-800">Our office in Haut-Katanga</strong>
