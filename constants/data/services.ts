@@ -3,39 +3,39 @@ import type { NavLinkType, ServiceCardInterface } from "@/types";
 export const ServiceNav: NavLinkType[] = [
   {
     name: 'Solar Systems',
-    url: '/services/#solar',
+    url: '/services#solar',
   },
   {
     name: 'Fire Hydrants',
-    url: '/services/#fire-hydrants',
+    url: '/services#fire-hydrants',
   },
   {
     name: 'Lighting',
-    url: '/services/#lighting',
+    url: '/services#lighting',
   },
   {
     name: 'Charging stations',
-    url: '/services/#charging-stations',
+    url: '/services#charging-stations',
   },
   {
     name: 'Home Automation',
-    url: '/services/#home-automation',
+    url: '/services#home-automation',
   },
   {
     name: 'Traffic Lights',
-    url: '/services/#traffic-lights',
+    url: '/services#traffic-lights',
   },
   {
     name: 'Construction',
-    url: '/services/#construction',
+    url: '/services#construction',
   },
   {
     name: 'Electrical appliances',
-    url: '/services/#electrical-appliances',
+    url: '/services#electrical-appliances',
   },
   {
     name: 'Roller Shutter',
-    url: '/services/#roller-shutter',
+    url: '/services#roller-shutter',
   },
 ]
 
