@@ -10,8 +10,7 @@ import Products from '@/components/products'
 export default function Home() {
 
   return (
-    <div className="w-full">
-      <Header />
+    <div className="w-full max-w-[1536px]">
       <main className="flex flex-col items-center w-full m-0 p-0">
         <Hero />
         <Services />

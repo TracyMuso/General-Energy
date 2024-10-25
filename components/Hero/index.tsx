@@ -1,8 +1,11 @@
+"use client"
 import Link from "next/link"
+import Header from "../Layout/Header"
 
 const Hero = () => {
   return (
-    <section id="hero" className="px-0 py-11 w-full hero-section h-[83vh]">
+    <section id="hero" className="px-0 pb-11 w-full hero-section h-[100vh]">
+      <Header />
       <div className="w-1/2">
         <div className="flex flex-col gap-9 pl-12 pt-6">
           <h1 className="text-5xl font-extrabold leading-14">

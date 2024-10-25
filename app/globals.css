@@ -6,6 +6,7 @@ body {
   margin: 0;
 }
 
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -75,15 +76,34 @@ body {
   background: url('/images/man-and-woman-at-construction-site.jpg');
   background-position: right;
   background-repeat: no-repeat;
+  background-size: cover;
   background-color: #F8DEB0;
 }
 
-.service-top {
+#service-top {
   background: url('/images/pexels-mikael-blomkvist-8961066.jpg');
   background-repeat: no-repeat;
   background-color: #fff;
   background-position: 1% 58%;
   background-size: cover;
+}
+
+@media screen and (max-width: 1280px) {
+  .hero-section {
+    background: #fff699;
+  }
+  header {
+    background: #fff;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  #mobile-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+  }
 }
 
 .contact-top {
