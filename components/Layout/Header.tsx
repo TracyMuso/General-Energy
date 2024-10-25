@@ -20,7 +20,7 @@ const Header = () => {
           </span>
           <Link href={'tel:+260778483992'} className="text-m font-semibold text-blue-900 hover:text-blue-400">+260 778 483 992</Link>
         </div>
-        <span className={isMenuOpen? "hidden" : "cursor-pointer"} onClick={() => {setIsMenuOpen(true)}}>
+        <span className={isMenuOpen? "hidden" : "lg:hidden cursor-pointer"} onClick={() => {setIsMenuOpen(true)}}>
           <HamburgerMenuIcon />
         </span>
         <span className={isMenuOpen ? "cursor-pointer z-50 fixed top-7 sm:left-[93%] left-[70%]" : "hidden"} onClick={() => {setIsMenuOpen(false)}}>
