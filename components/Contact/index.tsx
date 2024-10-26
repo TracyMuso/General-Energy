@@ -3,7 +3,7 @@ import ContactForm from "./contactForm";
 const Contact = () => {
   return (
     <div id="contact" className="w-full flex flex-col items-center gap-9 py-6">
-      <div className="flex md:flex-row flex-col items-center m-0 gap-10 md:px-20 w-full">
+      <div className="flex md:flex-row flex-col items-center m-0 gap-10 lg:px-20 md:px-10 w-full">
         <div className="md:w-1/2 flex md:flex-col flex-row justify-between items-center gap-9">
           <div className="hidden md:flex flex-col items-center gap-5">
             <h3 className="lg:text-3xl sm:text-2xl text-center font-bold text-blue-300">Lets Chat</h3>

@@ -15,7 +15,7 @@ export default function Home() {
         <Services />
         <Products />
         <About />
-        <section className='py-16 px-0 flex flex-col gap-5 items-center'>
+        <section className='py-16 px-10 w-full flex flex-col gap-5 items-center'>
             <h2 className="md:text-4xl text-2xl font-bold">Get in Touch</h2>
           <Contact />
         </section>
