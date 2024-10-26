@@ -154,7 +154,7 @@ export const FooterLinks: FooterLink[] = [
 
 export const ProductCardDets: ProductCardType[] = [
   {
-    productName: 'Extension Cords',
+    productName: 'Ext Cords',
     brand: 'General Energy',
     price: '$10',
     img: '/images/extension-cord.png'
