@@ -53,6 +53,7 @@ const Footer = () => {
               ))}
             </div>
         <hr className="border-s-blue-200" />
+        <span>Made by </span>
         <div className="flex lg:hidden items-start gap-3 p-3">
               <Link href={'#'}>
                 <Image src={'/icons/facebook-176-svgrepo-com.svg'} width={27} height={20} alt="facebook icon" />

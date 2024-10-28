@@ -1,0 +1,29 @@
+ /* TEAM */
+
+                                
+    Software developer: Tracy Musongole
+
+                                
+    Site: tracymuso.com
+
+    Email: musongoletracy at gmail dot com
+                                
+    LinkedIn: linkedin.com/in/tracy-muso
+   
+    Location: Lusaka, Zambia
+
+                                
+    /* SITE */
+
+                                
+    Last update: 2024/28/10
+
+                                
+    Standards: HTML5, CSS3, ES6
+
+                                
+    Components: Tailwindcss
+
+                                
+    Software: Nextjs, Vercel
+       

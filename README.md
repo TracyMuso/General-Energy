@@ -101,7 +101,7 @@ For more information on the importance of a professional README for your reposit
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://generalenergy.cd)
+- [Live Demo Link](https://generalenergy.vercel.app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
