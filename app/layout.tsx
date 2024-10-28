@@ -12,7 +12,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="p-0">{children}</body>
+      <head>
+      <link rel="author" href="humans.txt" />
+      </head>
+      <body className="p-0 flex flex-col items-center">{children}</body>
     </html>
   )
 }
