@@ -1,9 +1,12 @@
+import 'dotenv/config'
+
 export const ContactForm = () => {
+
   return (
     <form className="rounded-md border border-blue-500 text-blue-800 pt-5 pb-7 px-6 md:w-1/2 w-full" action="https://api.web3forms.com/submit" method="POST">
       <p className="md:text-[17px] text-m py-2 w-full font-bold">Please fill in all the fields</p>
-        <input type="hidden" name="access_key" value="3355fb2e-9534-412a-8ebc-0f78147d3b1f" />
-        <input type="hidden" name="subject" value="New Contact form Submission from Web3forms" />
+        <input type="hidden" name="access_key" value="ad9428bc-6218-4cd7-a4da-ff0dbc0f204c" />
+        <input type="hidden" name="subject" value="New Contact form Submission from General Energy website" />
         <input type="hidden" name="from_name" value="GE Contact" />
 
         <div className="grid gap-4 py-2 pt-4">
@@ -26,8 +29,7 @@ export const ContactForm = () => {
         </div>
         <div className="pl-4 py-2 relative">
         <label htmlFor="botcheck" className="py-2 text-blue-700">
-          <input type="checkbox" name="botcheck" className="absolute left-0 bottom-[14px]" />
-          I am not a robot
+          <input type="checkbox" name="botcheck" className="hidden left-0 bottom-[14px]" />
         </label>
         </div>
         <button className="w-full bg-yellow-400 text-blue-800 px-4 py-2 rounded-md" type="submit">Send Message</button>

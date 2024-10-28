@@ -13,7 +13,7 @@ const FAQs = () => {
     <>
       <div className="text-center">
         <div className="w-4/5 mx-auto">
-          <h2 className="text-[48px] md:text-3xl pb-8 max-[640px]:text-2xl lg:text-4xl font-extrabold">
+          <h2 className="md:text-3xl pb-8 max-[640px]:text-2xl lg:text-4xl font-extrabold">
             Frequently Asked Questions
           </h2>
         </div>
@@ -23,8 +23,8 @@ const FAQs = () => {
           <li
             key={question.question}
             className={`${
-              activeIndex === index ? "bg-[#F8DEB0]" : "bg-transparent"
-            } hover:bg-[#F8DEB0] rounded-lg cursor-pointer p-4`}
+              activeIndex === index ? "bg-yellow-100" : "bg-transparent"
+            } hover:bg-yellow-100 rounded-lg cursor-pointer p-4`}
             onClick={() => handleOpenAnswer(index)}
           >
             <div className="flex justify-between items-center">

@@ -4,7 +4,6 @@ import About from '@/components/About'
 import Services from '@/components/Services'
 import Contact from '@/components/Contact'
 import Footer from '@/components/Layout/Footer'
-import Products from '@/components/products'
 
 export default function Home() {
 
@@ -13,7 +12,6 @@ export default function Home() {
       <main className="flex flex-col items-center w-full m-0 p-0">
         <Hero />
         <Services />
-        <Products />
         <About />
         <section className='py-16 px-10 w-full flex flex-col gap-5 items-center'>
             <h2 className="md:text-4xl text-2xl font-bold">Get in Touch</h2>
