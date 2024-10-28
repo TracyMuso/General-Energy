@@ -1,20 +1,19 @@
-import Image from "next/image";
 import Link from "next/link";
 import ProductCard from "../Cards/ProductCard";
 import { ProductCardDets } from "@/constants/data/LandingPage";
 
 const Products = () => {
   return (
-    <section className="py-20 flex flex-col items-center w-full">
-      <h3 className="text-4xl font-bold pb-4">Our Products</h3>
-      <span className="pb-4 ">Visit our store to get awesome products. We sell extension cords, solar panels, wifi-modules and so much more</span>
-      <div className="flex items-center w-full px-20 justify-between gap-8 py-12">
-        <div className="flex items-center w-4/5 gap-6">
+    <section className="py-20 flex flex-col items-center w-full sm:px-10">
+      <h3 className="2xl:text-5xl lg:text-4xl sm:text-3xl text-2xl font-bold pb-4">Our Products</h3>
+      <span className="pb-4 md:text-xl sm:text-m text-sm text-center sm:px-2 px-6">Visit our store to get awesome products. We sell extension cords, solar panels, wifi-modules and so much more</span>
+      <div className="flex flex-col items-center md:gap-12 gap-8 w-full sm:px-10 sm:py-12 py-6 px-5">
+        <div className="flex sm:flex-row flex-col items-center justify-between 2xl:w-4/5 md:gap-9 sm:gap-3 gap-6">
           {ProductCardDets.map((item, idx) => (
         <ProductCard key={idx} {...item} />
           ))}
         </div>
-        <Link href={'#'}><Image src={'/icons/arrow-right-svgrepo-com.png'} height={400} width={200} alt="arrow right icon" /> </Link>
+        <Link className="px-6 py-3 bg-yellow-400 rounded-xl text-center w-1/3" href={'#'}>See more</Link>
       </div>
     </section>
   )

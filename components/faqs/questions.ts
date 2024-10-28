@@ -10,14 +10,14 @@ const questions: FAQData[] = [
       'Of course it is! Please feel free to call us or email us. You can also visit our offices, open from monday to saurday.',
   },
   {
-    question: "What are the benefits of upgrading to a premium account?",
+    question: "What are the benefits of upgrading to a premium solar package",
     answer:
-      "Upgrading to a premium account unlocks unlimited features and tools, unlimited career opportunities, user analytics, priority customer support, and unlimited business promotion for businesses.",
+      "Upgrading to a premium package unlocks so many benefits. You get 24/7 customer support, weekly maintenance and chacks.",
   },
   {
-    question: "Can I have multiple types of accounts?",
+    question: "Do you have qualified architects and engineers?",
     answer:
-      "Absolutely! You can have a social account, professional account, and business account, all linked to the same email identity. Enjoy the flexibility of managing all three accounts simultaneously.",
+      "Absolutely! We hire the best expertise on the market",
   },
   {
     question: "How can I cancel my subscription?",

@@ -75,15 +75,46 @@ body {
   background: url('/images/man-and-woman-at-construction-site.jpg');
   background-position: right;
   background-repeat: no-repeat;
+  background-size: cover;
   background-color: #F8DEB0;
 }
 
-.service-top {
+#service-top {
   background: url('/images/pexels-mikael-blomkvist-8961066.jpg');
   background-repeat: no-repeat;
   background-color: #fff;
   background-position: 1% 58%;
   background-size: cover;
+}
+
+@media screen and (max-width: 1279px) {
+  .hero-section {
+    background: #fff699;
+  }
+  header {
+    background: #fff;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #service-top {
+    background: #fff699;
+  }
+
+  .service-text {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 4rem;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  #mobile-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+  }
 }
 
 .contact-top {
