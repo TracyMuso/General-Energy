@@ -38,6 +38,17 @@ export interface ProductCardType {
   price: string;
 }
 
+export interface MainProductCardType {
+  img: string;
+  productName: string;
+  stock: 'In Stock' | 'Out of Stock'
+  price: string;
+  variants: string[];
+  point1: string;
+  point2: string;
+  point3: string;
+}
+
 type Energy = string
 
 export default Energy
