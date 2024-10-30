@@ -1,7 +1,6 @@
 import 'dotenv/config'
 
 export const ContactForm = () => {
-
   return (
     <form className="rounded-md border border-blue-500 text-blue-800 pt-5 pb-7 px-6 md:w-1/2 w-full" action="https://api.web3forms.com/submit" method="POST">
       <p className="md:text-[17px] text-m py-2 w-full font-bold">Please fill in all the fields</p>
