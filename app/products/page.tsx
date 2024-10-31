@@ -2,6 +2,7 @@
 import '../globals.css'
 import Header from "@/components/Layout/Header"
 import MainProductCard from "@/components/Cards/MainProductCard"
+import { ProductsData } from '@/constants/data/products'
 
 export default function ProductsPage() {
 
@@ -9,9 +10,9 @@ export default function ProductsPage() {
     <section className='w-full'>
       <Header />
       <div className='py-8 w-full flex flex-col gap-10 lg:px-16 md:px-12 px-8'>
-        <MainProductCard />
-        <MainProductCard />
-        <MainProductCard />
+        {ProductsData.map((item, idx) => (
+          <MainProductCard {...item} key={idx} />
+        ))}
       </div>
     </section>
   )

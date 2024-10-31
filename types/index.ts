@@ -44,9 +44,7 @@ export interface MainProductCardType {
   stock: 'In Stock' | 'Out of Stock'
   price: string;
   variants: string[];
-  point1: string;
-  point2: string;
-  point3: string;
+  points: string[];
 }
 
 type Energy = string
