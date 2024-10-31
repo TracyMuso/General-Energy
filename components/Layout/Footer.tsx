@@ -5,7 +5,7 @@ import { FooterLinks } from "@/constants/data/LandingPage";
 const Footer = () => {
   return (
     <div className="bg-blue-800 w-full text-white">
-      <footer className="w-full flex lg:flex-row flex-col xl:px-24 lg:gap-2 sm:gap-3 md:px-12 py-12 lg:justify-between items-center lg:items-start">
+      <footer className="w-full flex lg:flex-row flex-col xl:px-24 sm:gap-3 md:px-12 py-12 lg:justify-between items-center lg:items-start">
         <div className="w-[350px] hidden lg:flex flex-col items-center gap-6 px-6">
           <Image src={'/icons/logo1.png'} width={150} height={100} alt="logo" />
           <div className="flex flex-col items-center">
@@ -44,7 +44,7 @@ const Footer = () => {
                     <Link
                       key={index}
                       href={link.url}
-                      className="text-white font-normal xl:text-base md:text-m leading-normal font-Inria"
+                      className="text-white font-normal xl:text-base md:text-m leading-normal hover:underline font-Inria"
                     >
                       {link.name}
                     </Link>

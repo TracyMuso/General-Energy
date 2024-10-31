@@ -10,10 +10,10 @@ const Products = () => {
       <div className="flex flex-col items-center md:gap-12 gap-8 w-full sm:px-10 sm:py-12 py-6 px-5">
         <div className="flex sm:flex-row flex-col items-center justify-between 2xl:w-4/5 md:gap-9 sm:gap-3 gap-6">
           {ProductCardDets.map((item, idx) => (
-        <ProductCard key={idx} {...item} />
+            <ProductCard key={idx} {...item} />
           ))}
         </div>
-        <Link className="px-6 py-3 bg-yellow-400 rounded-xl text-center w-1/3" href={'#'}>See more</Link>
+        <Link className="px-6 py-3 bg-yellow-400 hover:bg-yellow-300 font-semi-bold rounded-xl text-center w-1/3" href={'/products'}>See more</Link>
       </div>
     </section>
   )

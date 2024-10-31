@@ -19,6 +19,10 @@ export const NavLinksData: NavLinkType[] = [
     name: 'Contact',
     url: '/contact',
   },
+  {
+  name: 'Products',
+  url: '/products'
+  }
 ]
 
 export const ServiceCardData: ServiceCardType[] = [
