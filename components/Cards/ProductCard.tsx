@@ -4,7 +4,7 @@ import { ProductCardType } from "@/types";
 
 const ProductCard = ({ productName, img, brand, price }: ProductCardType) => {
   return (
-    <div className="border bg-yellow-100 border-yellow-300 shadow rounded-xl xl:w-[300px] sm:h-auto p-0 flex sm:flex-col gap-3">
+    <div className="border bg-yellow-100 border-yellow-300 shadow rounded-xl xl:w-[300px] sm:h-[500px] p-0 flex sm:flex-col gap-3">
       <span className="sm:block hidden">
       <Image className="rounded-t-xl" src={img} width={300} height={180} alt="product" />
       </span>
