@@ -31,7 +31,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-          <div className="text-white flex max-[640px]:flex-col flex-wrap flex-row items-start max-[640px]:items-center xl:gap-28 gap-20 xl:text-center pt-10 md:flex-row justify-between md:justify-around max-[1023px]:w-4/5">
+          <div className="text-white flex flex-wrap flex-row items-start xl:gap-28 gap-20 xl:text-center pt-10 md:flex-row justify-between md:justify-around max-[1023px]:w-4/5 w-full">
               {FooterLinks.map((group, idx) => (
                 <div
                   key={idx}

@@ -5,10 +5,16 @@ import Header from '@/components/Layout/Header';
 import ServiceLinks from '@/components/Services/serviceLinks';
 import ServiceDetsCard from '@/components/Cards/ServiceDetsCard';
 import { serviceCard } from '@/constants/data/services';
+import { ArrowUp } from '@/components/Icons';
 
 export default function ServicesPage() {
   return (
     <div className="w-full flex flex-col">
+            <span className='bg-gradient-to-t from-amber-200 to-yellow-400 p-1 rounded-lg text-sm fixed md:hidden items-center bottom-[10%] right-[4%]'>
+      <Link className='w-full flex flex-col items-center' href={'#mobile-nav'}>
+      <ArrowUp />
+      </Link>
+      </span>
       <ServiceLinks />
       <section id='service-top' className='w-full md:pb-16 pb-8 px-0 md:h-[100vh]'>
       <Header />

@@ -8,7 +8,7 @@ const AboutPage = () => {
   return (
     <div className="w-full flex flex-col">
       <Header />
-      <section className="bg-yellow-100 py-16 w-full">
+      <section className="bg-gradient-to-t from-amber-200 to-yellow-400 py-16 w-full">
         <div className="py-12 flex flex-col gap-5 items-center">
           <h1 className="text-5xl font-bold pb-5">Our Story</h1>
           <div className="w-11/12 px-8">

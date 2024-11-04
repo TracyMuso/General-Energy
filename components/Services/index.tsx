@@ -15,14 +15,14 @@ const Services = () => {
             </li>
           ))}
         </ul>
-        <Link className="text-center font-semibold text-blue-900 w-1/2 px-6 py-3 border rounded-xl border-yellow-500" href={'/services'}>Go to services Page &rarr; </Link>
+        <Link className="text-center font-semibold hover:bg-yellow-400 active:scale-110 text-blue-900 w-1/2 px-6 py-3 border rounded-xl border-yellow-500" href={'/services'}>Go to services Page &rarr; </Link>
       </div>
       <div className="self-start lg:block hidden">
         <Image
         src={'/images/pexels-kindelmedia-8487406-removebg-preview.png'}
         width={400}
         height={500}
-        alt="woman inhardhat"
+        alt="woman in hard hat"
         />
       </div>
     </section>

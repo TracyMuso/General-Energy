@@ -11,19 +11,19 @@ export const ContactForm = () => {
         <div className="grid gap-4 py-2 pt-4">
           <div className="flex flex-col">
             <label htmlFor="name" className="mb-2">Name</label>
-            <input id="name" name="name" className="px-4 py-2 border border-blue-200 w-full rounded-md leading-5 text-m" placeholder="Your name" type="text" />
+            <input id="name" name="name" required className="px-4 py-2 border border-blue-200 w-full rounded-md leading-5 text-m" placeholder="Your name" type="text" />
           </div>
           <div className="flex flex-col">
             <label htmlFor="email" className="mb-2">Email</label>
-            <input id="email" name="email" className="px-4 py-2 border border-blue-200 w-full rounded-md leading-5 text-m" placeholder="Your email" type="email" />
+            <input id="email" required name="email" className="px-4 py-2 border border-blue-200 w-full rounded-md leading-5 text-m" placeholder="Your email" type="email" />
           </div>
           <div className="flex flex-col">
             <label htmlFor="phone" className="mb-2">Phone</label>
-            <input id="phone" name="phone" className="px-4 py-2 border border-blue-200 w-full rounded-md leading-5 text-m" placeholder="+1 (234) 56789" type="text" />
+            <input id="phone" required name="phone" className="px-4 py-2 border border-blue-200 w-full rounded-md leading-5 text-m" placeholder="+1 (234) 56789" type="text" />
           </div>
           <div className="flex flex-col">
             <label htmlFor="message" className="mb-2e">Message</label>
-            <textarea className="px-4 py-2 border border-blue-200 w-full rounded-md leading-5 text-m" id="message" name="message" placeholder="Your message"></textarea>
+            <textarea required className="px-4 py-2 border border-blue-200 w-full rounded-md leading-5 text-m" id="message" name="message" placeholder="Your message"></textarea>
           </div>
         </div>
         <div className="pl-4 py-2 relative">
