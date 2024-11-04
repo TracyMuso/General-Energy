@@ -90,6 +90,7 @@ body {
 @media screen and (max-width: 1279px) {
   .hero-section {
     background: #fff699;
+    background: linear-gradient(to top, #fde68a, #facc15);
   }
   header {
     background: #fff;

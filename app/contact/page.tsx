@@ -9,7 +9,7 @@ const ContactPage = () => {
   return (
     <div className="w-full">
       <Header />
-      <section className="w-full contact-top md:h-[83vh] flex flex-col justify-center items-center gap-4 sm:py-12 py-16">
+      <section className="w-full bg-gradient-to-t from-amber-200 to-yellow-400 md:h-[83vh] flex flex-col justify-center items-center gap-4 sm:py-12 py-16">
         <h1 className='font-bold lg:text-4xl sm:text-3xl text-2xl pb-4'>We are here for you</h1>
         <p className='lg:text-xl sn:text-base sm:leading-7 md:leading-11 text-m w-4/5 text-center pb-6'>General Energy has been serving customers excellently since 2019. Please the use the available platforms to get in touch. Or come visit us at the office. <br /> Please check out the frequently asked questions below, </p>
         <Link className='bg-white hover:bg-blue-200 md:text-[17px] text-sm px-6 py-3 text-center rounded-xl font-bold' href={'#contact'}> Go to Contact form</Link>
