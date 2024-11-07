@@ -1,5 +1,5 @@
 import type { PackagesType, NavLinkType, ServiceCardType, ProductCardType } from '@/types'
-
+const Nixon
 const Str = 'string'
 
 export const NavLinksData: NavLinkType[] = [
