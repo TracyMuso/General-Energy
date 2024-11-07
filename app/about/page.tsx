@@ -13,7 +13,7 @@ const AboutPage = () => {
           <h1 className="text-5xl font-bold pb-5">Our Story</h1>
           <div className="w-11/12 px-8">
             <p className="text-center">
-            General Energy is based in Lubumbashi in the Haut-Katanga province of the DRC. It was founded in 2019 with the aim of making high quality and modern road traffic lights accessible. The world is facing an energy deficit and General Energy wants to position itself as a leader in the energy sector. We aim to do better by incorporating solar energy and meeting the technical requirements of photovoltaic equipment.<br />
+            General Energy est basé à Lubumbashi dans la province du Haut-Katanga en RDC. Fondé en 2019 dans le but de rendre accessible la qualité et la modernisation des feux de signalisation routière, faire mieux en solaire en répondant aux exigences techniques de ces équipements et innover en apportant un plus dans tous nos services.<br />
           <br />
           </p>
           <p className="text-center hidden sm:block">
