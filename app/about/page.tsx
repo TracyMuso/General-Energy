@@ -17,7 +17,7 @@ const AboutPage = () => {
           <br />
           </p>
           <p className="text-center hidden sm:block">
-          We intends to position ourselves as market leaders in the utilities field by acquiring the best expertise, modern technologies and embrace sustainability. We work with various clients in both residential and commercial settings. The safety of our customers and the general public is our top priority.
+          Nous avons l'intention de nous positionner comme leader du marché dans le domaine des services publics en acquérant la meilleure expertise, les technologies modernes et en adoptant la durabilité. Nous travaillons avec divers clients dans des milieux résidentiels et commerciaux. La sécurité de nos clients et du grand public est notre priorité absolue.
           </p>
           </div>
         </div>

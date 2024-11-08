@@ -1,5 +1,4 @@
 import type { PackagesType, NavLinkType, ServiceCardType, ProductCardType } from '@/types'
-const Nixon
 const Str = 'string'
 
 export const NavLinksData: NavLinkType[] = [
@@ -96,15 +95,15 @@ export const FooterLinks: FooterLink[] = [
     links: [
       {
         name: "About Us",
-        url: "#",
+        url: "/about",
       },
       {
         name: "Services",
-        url: "#",
+        url: "/services",
       },
       {
         name: "Products",
-        url: "#",
+        url: "/products",
       },
       {
         name: "Careers",
@@ -142,7 +141,7 @@ export const FooterLinks: FooterLink[] = [
       },
       {
         name: "Contact",
-        url: "#",
+        url: "/contact",
       },
       {
         name: "Sitemap",
