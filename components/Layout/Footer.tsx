@@ -58,16 +58,19 @@ const Footer = () => {
         <hr className="border-s-blue-200" />
         <span>Made by </span>
         <div className="flex lg:hidden items-start gap-3 p-3">
-              <Link href={'#'}>
+              <Link href={'https://www.facebook.com/profile.php?id=100065397222905'}>
                 <Image src={'/icons/facebook-176-svgrepo-com.svg'} width={27} height={20} alt="facebook icon" />
               </Link>
-              <Link href={'#'}>
+              <Link href={'https://www.instagram.com/general_energy_s.a.s/'}>
                 <Image src={'/icons/instagram-svgrepo-com.svg'} width={35} height={35} alt="instagram icon" />
               </Link>
-              <Link href={'#'}>
+              <Link href={'https://wa.me/243808348094'}>
+                <Image src={'/icons/whatsapp-svgrepo-com.svg'} width={33} height={33} alt="whatsapp icon" />
+              </Link>
+              <Link href={'mailto:info@generalenergy.cd'}>
                 <Image src={'/icons/mail-svgrepo-com.svg'} width={33} height={33} alt="mail icon" />
               </Link>
-              <Link href={'#'} className="pl-1">
+              <Link href={'https://www.linkedin.com/company/generalenergysas/'} className="pl-1">
                 <Image src={'/icons/linkedin-linked-in-svgrepo-com.svg'} width={33} height={33} alt="mail icon" />
               </Link>
             </div>

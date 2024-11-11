@@ -30,10 +30,6 @@ export const ServiceNav: NavLinkType[] = [
     url: '/services#construction',
   },
   {
-    name: 'Electrical appliances',
-    url: '/services#electrical-appliances',
-  },
-  {
     name: 'Roller Shutter',
     url: '/services#roller-shutter',
   },
@@ -123,18 +119,6 @@ export const serviceCard: ServiceCardInterface[] = [
     point3: 'On-time delivery for all projects',
     point4: 'Customizable packages for any budget',
     link: '/services/construction',
-  },
-  {
-    id: 'electrical-appliances',
-    service: 'Electric Supplies',
-    maintext: 'Equip your space with the best in electrical supplies. From cabling to advanced appliances, we provide durable, safe, and efficient electrical solutions for all.',
-    icon: '/icons/cable-data-plug-usb-storage-svgrepo-com.svg',
-    img: '/images/electric-cables.jpg',
-    point1: 'Wide selection of supplies for all needs',
-    point2: 'Durable materials built to last',
-    point3: 'Installation services by certified professionals',
-    point4: 'Packages available for large-scale projects',
-    link: '/services/electrical-appliances',
   },
   {
     id: 'rollershutters',
