@@ -10,17 +10,20 @@ const Footer = () => {
           <Image src={'/icons/logo1.png'} width={150} height={100} alt="logo" />
           <div className="flex flex-col items-center">
             <div className="flex items-start gap-3 p-3">
-              <Link href={'#'}>
+              <Link href={'https://facebook.com/profile.php?id=100065397222905'}>
                 <Image src={'/icons/facebook-176-svgrepo-com.svg'} width={27} height={20} alt="facebook icon" />
               </Link>
-              <Link href={'#'}>
+              <Link href={'https://instagram.com/general_energy_s_a_s/'}>
                 <Image src={'/icons/instagram-svgrepo-com.svg'} width={35} height={35} alt="instagram icon" />
               </Link>
-              <Link href={'#'}>
-                <Image src={'/icons/mail-svgrepo-com.svg'} width={33} height={33} alt="mail icon" />
+              <Link href={'https://wa.me/243808348094'}>
+                <Image src={'/icons/whatsapp-svgrepo-com.svg'} width={30} height={30} alt="whatsapp icon" />
               </Link>
-              <Link href={'#'} className="pl-1">
-                <Image src={'/icons/linkedin-linked-in-svgrepo-com.svg'} width={33} height={33} alt="mail icon" />
+              <Link href={'mailto:info@generalenergy.cd'}>
+                <Image src={'/icons/mail-svgrepo-com.svg'} width={30} height={30} alt="mail icon" />
+              </Link>
+              <Link href={'https://linkedin.com/company/generalenergysas'} className="pl-1">
+                <Image src={'/icons/linkedin-linked-in-svgrepo-com.svg'} width={30} height={30} alt="mail icon" />
               </Link>
             </div>
             <div className="flex flex-col items-center text-white py-4">
@@ -55,16 +58,19 @@ const Footer = () => {
         <hr className="border-s-blue-200" />
         <span>Made by </span>
         <div className="flex lg:hidden items-start gap-3 p-3">
-              <Link href={'#'}>
+              <Link href={'https://www.facebook.com/profile.php?id=100065397222905'}>
                 <Image src={'/icons/facebook-176-svgrepo-com.svg'} width={27} height={20} alt="facebook icon" />
               </Link>
-              <Link href={'#'}>
+              <Link href={'https://www.instagram.com/general_energy_s.a.s/'}>
                 <Image src={'/icons/instagram-svgrepo-com.svg'} width={35} height={35} alt="instagram icon" />
               </Link>
-              <Link href={'#'}>
+              <Link href={'https://wa.me/243808348094'}>
+                <Image src={'/icons/whatsapp-svgrepo-com.svg'} width={33} height={33} alt="whatsapp icon" />
+              </Link>
+              <Link href={'mailto:info@generalenergy.cd'}>
                 <Image src={'/icons/mail-svgrepo-com.svg'} width={33} height={33} alt="mail icon" />
               </Link>
-              <Link href={'#'} className="pl-1">
+              <Link href={'https://www.linkedin.com/company/generalenergysas/'} className="pl-1">
                 <Image src={'/icons/linkedin-linked-in-svgrepo-com.svg'} width={33} height={33} alt="mail icon" />
               </Link>
             </div>

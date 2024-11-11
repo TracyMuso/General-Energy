@@ -31,6 +31,20 @@ export const ProductsData: MainProductCardType[] = [
     ],
   },
   {
+    productName: 'Electric Cables',
+    price: '$15',
+    img: '/images/electric-cables.jpg',
+    stock: 'In Stock',
+    variants: [
+      '5m', '10m', '15m', '20m'
+    ],
+    points: [
+      'Heavy-duty electric cables for power connection',
+      'Available in multiple lengths to suit different power needs.',
+      'Built with durable materials to withstand wear and tear.',
+    ],
+  },
+  {
     productName: 'Solar Panels',
     img: '/images/solar-panel2.jpg',
     stock: 'In Stock',

@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section id="hero" className="bg-gradient-to-t from-amber-200 to-yellow-400 px-0 lg:pb-0 md:pb-20 w-full hero-section lg:h-[100vh]">
       <Header />
-      <div className="flex flex-col md:items-left xl:gap-6items-center w-full md:w-4/5 xl:w-1/2 pt-12 pb-20 md:pb-0 2xl:pt-16 ">
+      <div className="flex flex-col md:items-left xl:gap-6items-center w-full md:w-4/5 xl:w-1/2 pt-12 lg:pt-4 pb-20 md:pb-0 2xl:pt-16 ">
         <div className="flex flex-col 2xl:gap-12 gap-10 md:px-16 pt-6 px-8 md:items-start sm:px-12 items-center">
           <h1 className="lg:text-5xl md:text-4xl sm:text-3xl text-2xl md:w-full lg:w-4/5 md:text-left text-center font-extrabold md:leading-14">
             Providing the best utilities in DRC
