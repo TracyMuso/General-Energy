@@ -3,22 +3,22 @@ import 'dotenv/config'
 export const ContactForm = () => {
   return (
     <form className="rounded-md border border-blue-500 text-blue-800 pt-5 pb-7 px-6 md:w-1/2 w-full" action="https://api.web3forms.com/submit" method="POST">
-      <p className="md:text-[17px] text-m py-2 w-full font-bold">Please fill in all the fields</p>
+      <p className="md:text-[17px] text-m py-2 w-full font-bold">Veuillez remplir tous les champs</p>
         <input type="hidden" name="access_key" value="ad9428bc-6218-4cd7-a4da-ff0dbc0f204c" />
         <input type="hidden" name="subject" value="New Contact form Submission from General Energy website" />
         <input type="hidden" name="from_name" value="GE Contact" />
 
         <div className="grid gap-4 py-2 pt-4">
           <div className="flex flex-col">
-            <label htmlFor="name" className="mb-2">Name</label>
+            <label htmlFor="name" className="mb-2">Nom</label>
             <input id="name" name="name" required className="px-4 py-2 border border-blue-200 w-full rounded-md leading-5 text-m" placeholder="Your name" type="text" />
           </div>
           <div className="flex flex-col">
-            <label htmlFor="email" className="mb-2">Email</label>
+            <label htmlFor="email" className="mb-2">E-mail</label>
             <input id="email" required name="email" className="px-4 py-2 border border-blue-200 w-full rounded-md leading-5 text-m" placeholder="Your email" type="email" />
           </div>
           <div className="flex flex-col">
-            <label htmlFor="phone" className="mb-2">Phone</label>
+            <label htmlFor="phone" className="mb-2">Téléphone</label>
             <input id="phone" required name="phone" className="px-4 py-2 border border-blue-200 w-full rounded-md leading-5 text-m" placeholder="+1 (234) 56789" type="text" />
           </div>
           <div className="flex flex-col">
@@ -31,7 +31,7 @@ export const ContactForm = () => {
           <input type="checkbox" name="botcheck" className="hidden left-0 bottom-[14px]" />
         </label>
         </div>
-        <button className="w-full bg-yellow-400 text-blue-800 px-4 py-2 rounded-md" type="submit">Send Message</button>
+        <button className="w-full bg-yellow-400 text-blue-800 px-4 py-2 rounded-md" type="submit">Envoyer un message</button>
       </form>
   )
 }

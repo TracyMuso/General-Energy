@@ -6,7 +6,7 @@ const Nav = () => {
   const currentPath = usePathname()
 
   return (
-    <div className="hidden lg:flex justify-between xl:w-1/3 lg:w-2/5 py-5 px-3">
+    <div className="hidden lg:flex justify-between py-5 px-3">
       {NavLinksData.map((item, idx) => (
         <Link
           className={currentPath === item.url ? "px-3 py-2 hover:bg-yellow-300 bg-yellow-400 rounded-xl text-blue-700" : "text-blue-900 px-3 py-2 hover:text-blue-500 hover:underline"}

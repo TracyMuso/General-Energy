@@ -3,11 +3,11 @@ const Str = 'string'
 
 export const NavLinksData: NavLinkType[] = [
   {
-    name: 'Home',
+    name: 'Accueil',
     url: '/',
   },
   {
-    name: 'About',
+    name: 'À propos',
     url: '/about',
   },
   {
@@ -19,70 +19,70 @@ export const NavLinksData: NavLinkType[] = [
     url: '/contact',
   },
   {
-  name: 'Products',
-  url: '/products'
+    name: 'Produits',
+    url: '/products'
   }
-]
+];
 
 export const ServiceCardData: ServiceCardType[] = [
   {
-    title: 'Solar Systems',
-    text: 'Power up your home or business with solar energy',
+    title: 'Systèmes solaires',
+    text: 'Alimentez votre maison ou entreprise avec l`énergie solaire',
   },
   {
-    title: 'Fire Hydrants',
-    text: 'Get a safety measure in case of fires',
+    title: 'Bouches d`incendie',
+    text: 'Prenez des mesures de sécurité en cas d`incendie',
   },
   {
-    title: 'Lighting',
-    text: 'Decorative and public lighting of all kinds',
+    title: 'Éclairage',
+    text: 'Éclairage décoratif et public de toutes sortes',
   },
   {
-    title: 'Charging stations',
-    text: 'Charge your electric vehicles safely and efficiently',
+    title: 'Stations de recharge',
+    text: 'Rechargez vos véhicules électriques en toute sécurité et efficacité',
   },
   {
-    title: 'Home Automation',
-    text: 'Get your smart home today with the best tech',
+    title: 'Domotique',
+    text: 'Transformez votre maison en maison intelligente avec les meilleures technologies',
   },
   {
-    title: 'Traffic Lights',
-    text: 'Ensure the safety of the general public',
+    title: 'Feux de circulation',
+    text: 'Assurez la sécurité du public',
   },
   {
     title: 'Construction',
-    text: 'We have the best civil engineers for your needs',
+    text: 'Nous disposons des meilleurs ingénieurs civils pour vos besoins',
   },
   {
-    title: 'Extension cords',
-    text: 'We design and manufacture extension cords',
+    title: 'Câbles d`extension',
+    text: 'Nous concevons et fabriquons des câbles d`extension',
   },
   {
-    title: 'Roller Shutter',
-    text: 'We motorize all types of manual roller shutters.',
+    title: 'Volet roulant',
+    text: 'Nous motorisons tous types de volets roulants manuels',
   },
-]
+];
 
 export const PackagesData: PackagesType[] = [
   {
     link: '/residential',
-    title: 'Residential Packages',
+    title: 'Forfaits résidentiels',
     icon: '/icons/home-svgrepo-com.svg',
-    text: 'Power up your home with packages starting from k5000',
-    point1: '24/7 support',
-    point2: 'Free consultation',
-    point3: 'Save up tp 40% on power costs'
+    text: 'Alimentez votre maison avec des forfaits à partir de k5000',
+    point1: 'Support 24/7',
+    point2: 'Consultation gratuite',
+    point3: 'Économisez jusqu`à 40 % sur les coûts énergétiques'
   },
   {
     link: '/commercial',
-    title: 'Commercial Packages',
+    title: 'Forfaits commerciaux',
     icon: '/icons/business-building-svgrepo-com.svg',
-    text: 'Keep your business up and running with back up power',
-    point1: 'Save up to 70% on taxes',
-    point2: 'Buy or lease options',
-    point3: 'Free consultaion'
+    text: 'Assurez la continuité de votre entreprise avec une alimentation de secours',
+    point1: 'Économisez jusqu`à 70 % en taxes',
+    point2: 'Options d`achat ou de location',
+    point3: 'Consultation gratuite'
   },
-]
+];
 
 interface FooterLink {
   title: string;
@@ -91,10 +91,10 @@ interface FooterLink {
 
 export const FooterLinks: FooterLink[] = [
   {
-    title: "Company",
+    title: "Entreprise",
     links: [
       {
-        name: "About Us",
+        name: "À propos de nous",
         url: "/about",
       },
       {
@@ -102,38 +102,38 @@ export const FooterLinks: FooterLink[] = [
         url: "/services",
       },
       {
-        name: "Products",
+        name: "Produits",
         url: "/products",
       },
       {
-        name: "Careers",
+        name: "Carrières",
         url: "#",
       },
     ],
   },
   {
-    title: "Legal",
+    title: "Légal",
     links: [
       {
-        name: "Privacy Policy",
+        name: "Politique de confidentialité",
         url: "#",
       },
       {
-        name: "Shipping Policy",
+        name: "Politique de livraison",
         url: "#",
       },
       {
-        name: "Terms of Use",
+        name: "Conditions d'utilisation",
         url: "#",
       },
       {
-        name: "Legal Disclaimer",
+        name: "Avertissement légal",
         url: "#",
       },
     ],
   },
   {
-    title: "Resources",
+    title: "Ressources",
     links: [
       {
         name: "Articles",
@@ -144,7 +144,7 @@ export const FooterLinks: FooterLink[] = [
         url: "/contact",
       },
       {
-        name: "Sitemap",
+        name: "Plan du site",
         url: "#",
       },
       {
@@ -153,27 +153,27 @@ export const FooterLinks: FooterLink[] = [
       },
     ],
   },
-]
+];
 
 export const ProductCardDets: ProductCardType[] = [
   {
-    productName: 'Ext Cords',
-    brand: 'General Energy',
+    productName: 'Câbles d`extension',
+    brand: 'Énergie Générale',
     price: '$10',
     img: '/images/extension-cord.png'
   },
   {
-    productName: 'Solar panels',
+    productName: 'Panneaux solaires',
     brand: 'Soly',
     price: '$15',
     img: '/images/solar-panel2.jpg'
   },
   {
-    productName: 'Wifi Modules',
-    brand: 'General Energy',
+    productName: 'Modules Wi-Fi',
+    brand: 'Énergie Générale',
     price: '$20',
     img: '/images/wifi-module.jpeg'
   },
-]
+];
 
 export default Str

@@ -5,24 +5,24 @@ interface FAQData {
 
 const questions: FAQData[] = [
   {
-    question: "Is consultation free?",
+    question: "La consultation est-elle gratuite ?",
     answer:
-      'Of course it is! Please feel free to call us or email us. You can also visit our offices, open from monday to saurday.',
+      "Bien sûr ! N'hésitez pas à nous appeler ou à nous envoyer un e-mail. Vous pouvez également visiter nos bureaux, ouverts du lundi au samedi.",
   },
   {
-    question: "What are the benefits of upgrading to a premium solar package",
+    question: "Quels sont les avantages de passer à un forfait solaire premium ?",
     answer:
-      "Upgrading to a premium package unlocks so many benefits. You get 24/7 customer support, weekly maintenance and chacks.",
+      "Passer à un forfait premium vous offre de nombreux avantages. Vous bénéficiez d'un support client 24h/24 et 7j/7, d'une maintenance hebdomadaire et de vérifications.",
   },
   {
-    question: "Do you have qualified architects and engineers?",
+    question: "Avez-vous des architectes et des ingénieurs qualifiés ?",
     answer:
-      "Absolutely! We hire the best expertise on the market",
+      "Absolument ! Nous recrutons les meilleurs experts du marché.",
   },
   {
-    question: "How can I cancel my subscription?",
+    question: "Comment puis-je annuler mon abonnement ?",
     answer:
-      "Please note that once a subscription is purchased, it cannot be reversed. Ensure you make an informed decision before subscribing.",
+      "Veuillez noter qu'une fois l'abonnement souscrit, il ne peut pas être annulé. Assurez-vous de prendre une décision éclairée avant de vous abonner.",
   },
 ];
 

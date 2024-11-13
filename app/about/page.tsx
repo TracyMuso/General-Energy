@@ -32,7 +32,7 @@ const AboutPage = () => {
         </div>
       </section>
       <section className="bg-white flex flex-col items-center gap-5 py-16 md:px-16 px-7 w-full">
-        <h1 className="xl:text-5xl md:text-4xl text-2xl font-bold text-center">Book your consultation today</h1>
+        <h1 className="xl:text-5xl md:text-4xl text-2xl font-bold text-center">Réservez votre consultation aujourd'hui</h1>
         <Contact />
       </section>
       <Footer />

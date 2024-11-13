@@ -2,76 +2,76 @@ import type { MainProductCardType } from "@/types";
 
 export const ProductsData: MainProductCardType[] = [
   {
-    productName: 'Hybrid Solar Inverter',
+    productName: 'Onduleur solaire hybride',
     price: '$10',
     img: '/images/solar-inverter.jpg',
-    stock: 'Out of Stock',
+    stock: 'Rupture de stock',
     variants: [
       '3kva', '5kva', '10kva', '12kva'
     ],
     points: [
-      'When mains power is on this inverter will automatically kick in and start charging your batteries.',
-      'During loadshedding, this inverter will automatically run off battery power, and your appliances will continue to have power.',
-      'Includes battery cables to connect battery and inverter.'
+      'Lorsque l`alimentation principale est active, cet onduleur se déclenche automatiquement et commence à charger vos batteries.',
+      'En cas de délestage, cet onduleur fonctionnera automatiquement sur batterie, et vos appareils continueront d`être alimentés.',
+      'Comprend des câbles de batterie pour connecter la batterie et l`onduleur.'
     ],
   },
   {
-    productName: 'Extension Cords',
+    productName: 'Câbles d`extension',
     price: '$15',
     img: '/images/extension-cord.png',
-    stock: 'In Stock',
+    stock: 'En stock',
     variants: [
       '5m', '10m', '15m', '20m'
     ],
     points: [
-      'Heavy-duty extension cords for indoor and outdoor use.',
-      'Available in multiple lengths to suit different power needs.',
-      'Built with durable materials to withstand wear and tear.',
-      'Ideal for powering electrical devices during power outages or in remote locations.'
+      'Câbles d`extension robustes pour une utilisation intérieure et extérieure.',
+      'Disponibles en plusieurs longueurs pour répondre aux différents besoins d`alimentation.',
+      'Fabriqués avec des matériaux durables pour résister à l`usure.',
+      'Idéaux pour alimenter les appareils électriques en cas de panne de courant ou dans des lieux éloignés.'
     ],
   },
   {
-    productName: 'Electric Cables',
+    productName: 'Câbles électriques',
     price: '$15',
     img: '/images/electric-cables.jpg',
-    stock: 'In Stock',
+    stock: 'En stock',
     variants: [
       '5m', '10m', '15m', '20m'
     ],
     points: [
-      'Heavy-duty electric cables for power connection',
-      'Available in multiple lengths to suit different power needs.',
-      'Built with durable materials to withstand wear and tear.',
+      'Câbles électriques robustes pour la connexion électrique.',
+      'Disponibles en plusieurs longueurs pour répondre aux différents besoins d`alimentation.',
+      'Fabriqués avec des matériaux durables pour résister à l`usure.',
     ],
   },
   {
-    productName: 'Solar Panels',
+    productName: 'Panneaux solaires',
     img: '/images/solar-panel2.jpg',
-    stock: 'In Stock',
+    stock: 'En stock',
     price: '$200',
     variants: [
       '100W', '200W', '300W', '400W'
     ],
     points: [
-      'High-efficiency solar panels with a long lifespan.',
-      'Converts sunlight into electricity to power your home or business.',
-      'Durable and weather-resistant, suitable for outdoor installation.',
-      'Reduces electricity costs and contributes to renewable energy efforts.'
+      'Panneaux solaires à haute efficacité avec une longue durée de vie.',
+      'Convertit la lumière du soleil en électricité pour alimenter votre maison ou entreprise.',
+      'Durables et résistants aux intempéries, adaptés à l`installation extérieure.',
+      'Réduit les coûts d`électricité et contribue aux efforts en faveur des énergies renouvelables.'
     ],
   },
   {
-    productName: 'WiFi Modules',
+    productName: 'Modules WiFi',
     img: '/images/wifi-module.jpeg',
-    stock: 'Out of Stock',
+    stock: 'Rupture de stock',
     price: '$50',
     variants: [
       'Standard', 'Pro'
     ],
     points: [
-      'Enables remote monitoring and control of your solar system.',
-      'Connects your inverter or solar system to a WiFi network.',
-      'Compatible with most modern inverters for seamless integration.',
-      'Access real-time system performance data via a mobile app or web platform.'
+      'Permet la surveillance et le contrôle à distance de votre système solaire.',
+      'Connecte votre onduleur ou système solaire à un réseau WiFi.',
+      'Compatible avec la plupart des onduleurs modernes pour une intégration transparente.',
+      'Accédez aux données de performance du système en temps réel via une application mobile ou une plateforme web.'
     ],
   },
 ];

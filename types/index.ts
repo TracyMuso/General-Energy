@@ -41,7 +41,7 @@ export interface ProductCardType {
 export interface MainProductCardType {
   img: string;
   productName: string;
-  stock: 'In Stock' | 'Out of Stock'
+  stock: 'En stock' | 'Rupture de stock'
   price: string;
   variants: string[];
   points: string[];
