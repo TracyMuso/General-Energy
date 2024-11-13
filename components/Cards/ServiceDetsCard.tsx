@@ -20,10 +20,10 @@ const ServiceDetsCard = ({ service, maintext, icon, img, point1, point2, point3,
               </ul>
               <div className='flex flex-col sm:flex-row items-center gap-4'>
                 <Link className='bg-yellow-400 text-white md:text-base text-sm font-bold rounded-2xl py-2 px-5 w-1/2 text-center' href={link}>
-                View Packages
+                Voir les forfaits
                 </Link>
                 <Link className='border-yellow-500 border md:text-base hover:bg-yellow-400 text-sm font-bold rounded-2xl py-2 px-5 w-1/2 text-center' href={'#'}>
-                View Projects
+                Voir les projets
                 </Link>
               </div>
             </div>

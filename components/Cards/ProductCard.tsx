@@ -13,9 +13,9 @@ const ProductCard = ({ productName, img, brand, price }: ProductCardType) => {
       </span>
       <div className="flex flex-col gap-1 p-3 sm:w-full">
         <h4 className="font-bold lg:text-xl sm:text-m ">{productName}</h4>
-        <small className="text-blue-900 md:text-m text-[12px] italic">Brand: {brand}</small>
+        <small className="text-blue-900 md:text-m text-[12px] italic">Marque: {brand}</small>
         <span className="font-semibold py-1 md:text-m text-[12px]">from {price}</span>
-        <Link className="bg-blue-500 hover:bg-blue-400 md:w-1/2 w-full px-3 py-1 lg:text-m text-sm text-center text-white rounded-lg" href={'#'}>View details</Link>
+        <Link className="bg-blue-500 hover:bg-blue-400 md:w-1/2 w-full px-3 py-1 lg:text-m text-sm text-center text-white rounded-lg" href={'#'}>détails</Link>
       </div>
     </div>
   )
