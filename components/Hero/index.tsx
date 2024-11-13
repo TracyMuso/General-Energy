@@ -16,7 +16,7 @@ const Hero = () => {
           </p>
           <span className="active:scale-110">
             <Link href={'#services'} className="w-[230px] transform  md:text-xl text-center rounded-xl bg-yellow-600 hover:bg-yellow-400  text-blue-800 font-bold px-8 py-4">
-              View Services!
+            Voir les prestations !
             </Link>
           </span>
         </div>

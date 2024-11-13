@@ -12,7 +12,7 @@ const About = () => {
       <article className="text-center w-full md:px-24 px-10">
         <h1 className="lg:text-5xl md:text-4xl sm:text-3xl text-2xl font-bold">Our Partners</h1>
         <p className="leading-8 lg:text-xl py-7">
-          We have partnered with some of the best companies that help us acquire the best expertise and modern technologies.
+        Nous avons établi des partenariats avec certaines des meilleures entreprises qui nous aident à acquérir la meilleure expertise et les technologies modernes.
         </p>
       </article>
         <div className="flex items-center flex-wrap sm:justify-between justify-center sm:gap-5 md:px-1 px-10">

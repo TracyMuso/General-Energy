@@ -6,8 +6,8 @@ const Services = () => {
   return (
     <section id="services" className="w-full flex lg:justify-between justify-center items-center xl:gap-9 gap-6 py-16 md:px-20 px-6">
       <div className="flex flex-col gap-7 items-center lg:items-start">
-        <h3 className="md:text-4xl text-2xl font-bold md:pb-4">Our Services</h3>
-        <span className="md:text-xl pb-3 md:text-left text-center">We carry out the installation and maintenance of:</span>
+        <h3 className="md:text-4xl text-2xl font-bold md:pb-4">Nos prestations</h3>
+        <span className="md:text-xl pb-3 md:text-left text-center">Nous effectuons l'installation et la maintenance de:</span>
         <ul className="md:py-8 py-4 xl:w-[700px] list-disc list-inside space-y-5 sm:columns-2">
          {ProductsAndServices.map((item, idx) => (
            <li className="font-bold" key={idx}>
@@ -15,7 +15,7 @@ const Services = () => {
             </li>
           ))}
         </ul>
-        <Link className="text-center font-semibold hover:bg-yellow-400 active:scale-110 text-blue-900 w-1/2 px-6 py-3 border rounded-xl border-yellow-500" href={'/services'}>Go to services Page &rarr; </Link>
+        <Link className="text-center font-semibold hover:bg-yellow-400 active:scale-110 text-blue-900 w-1/2 px-6 py-3 border rounded-xl border-yellow-500" href={'/services'}>page des services &rarr; </Link>
       </div>
       <div className="self-start lg:block hidden">
         <Image

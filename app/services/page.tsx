@@ -25,7 +25,7 @@ export default function ServicesPage() {
             Votre entreprise numéro un dans le domaine de l`énergie et des services publics qui propose des solutions modernes aux problèmes modernes. Passons ensemble à l`énergie verte !
             </p>
           </div>
-          <Link href={'#services-container'} className='md:self-baseline lg:mx-0mx-auto py-3 px-6 bg-yellow-400 rounded-md font-bold'>View our services below </Link>
+          <Link href={'#services-container'} className='md:self-baseline lg:mx-0mx-auto py-3 px-6 bg-yellow-400 rounded-md font-bold'>Consultez nos prestations ci-dessous</Link>
         </div>
       </section>
       <section id='services-container' className="w-full flex flex-col items-center lg:items-start py-20 sm:px-12 px-8">
