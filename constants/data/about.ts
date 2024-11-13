@@ -2,15 +2,15 @@
 
  export const ProductsAndServices: NavLinkType[] = [
   {
-    name: 'Photovoltaic systems',
+    name: 'Systèmes photovoltaïques',
     url: '/services/#solar'
   },
   {
-    name: 'Traffic lights',
+    name: 'Feux de circulation',
     url: '/services/#traffic-lights'
   },
   {
-    name: 'Public and decorative lighting',
+    name: 'Éclairage public et décoratif',
     url: '/services/#fire-hydrants'
   },
   {
@@ -18,11 +18,11 @@
     url: '/services/#construction'
   },
   {
-    name: 'Manual roller shutters',
+    name: 'Volets roulants manuels',
     url: '/services/#roller-shutters'
   },
   {
-    name: 'Home automation',
+    name: 'Domotique',
     url: '/services/#home-automation'
   },
-]
+];
