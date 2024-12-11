@@ -1,13 +1,9 @@
-import React, {useEffect} from "react";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import React from "react";
+// import AOS from 'aos';
+// import 'aos/dist/aos.css';
 import type { MainProductCardType } from "@/types";
 
 const MainProductCard = ({ productName, img, price, stock, points, variants }: MainProductCardType) => {
-  useEffect(() => {
-    AOS.init();
-  }, [])
-
   return (
     <div className="flex md:flex-row flex-col md:items-start justify-between lg:gap-12 md:gap-4 lg:px-5 px-2 xl:pb-6 border-b-2 border-blue-300">
       <div className="lg:w-[500px] lg:h-[450px] md:w-[400px] h-[350px] md:h-[400px] p-4">
