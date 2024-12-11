@@ -1,10 +1,16 @@
 'use client'
+import type { Metadata } from 'next'
 import '../globals.css'
 import Link from 'next/link'
 import Header from "@/components/Layout/Header"
 import MainProductCard from "@/components/Cards/MainProductCard"
 import { ProductsData } from '@/constants/data/products'
 import { ArrowUp } from '@/components/Icons'
+
+export const metadata: Metadata = {
+  title: 'General Energy | Utilities services in Congo',
+  description: 'The number 1 Solar Energy provider in DRC',
+}
 
 export default function ProductsPage() {
 
