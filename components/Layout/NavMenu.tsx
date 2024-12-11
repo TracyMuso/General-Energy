@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { NavLinksData } from '@/constants/data/LandingPage'
 
-const Nav = () => {
+const NavMenu = () => {
   const currentPath = usePathname()
 
   return (
@@ -20,4 +20,4 @@ const Nav = () => {
   )
 }
 
-export default Nav;
+export default NavMenu;
