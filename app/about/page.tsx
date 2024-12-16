@@ -29,13 +29,24 @@ const AboutPage = () => {
       <div className="md:py-20 py-12 lg:flex justify-between gap-12 items-center md:px-28 px-12 bg-blue-700">
             <div className="space-y-8 lg:text-left text-center lg:w-1/2">
               <h2 className="lg:text-4xl sm:text-3xl text-2xl xl:pb-10 font-semibold text-white">
-                Notre Vision
+                Notre Mission
               </h2>
               <p className=" lg:leading-9 sm:block lg:text-xl text-white">
                 Faire l'installation et la maintenance photovoltaïque,
                 des feux de signalition routière moderne, de la domotique,
                 de l'éclairage plublic de tous type, de la bouche d'incendie, du genie civile ainsi que de la borne de 
-                recharge pour vehicule éléctrique
+                recharge pour véhicule éléctrique.
+              </p>
+            </div>
+                    <div className="space-y-8 lg:text-left text-center lg:w-1/2">
+              <h2 className="lg:text-4xl sm:text-3xl text-2xl xl:pb-10 font-semibold text-white">
+                Notre Vision
+              </h2>
+              <p className=" lg:leading-9 sm:block lg:text-xl text-white">
+                Se positionner en leader dans le solaire, l'installation des feux de signalisation routiere moderne
+                et assurer la qualité de tous nos services à travers la maintenance préventive des installations & équipements installés,
+                et être un partenaire incontournable auprès de nos clients avec des solutions innovantes en technologie de pointe et fournir à ces 
+                derniers un service de qualité
               </p>
             </div>
             <div className=" lg:block hidden">
