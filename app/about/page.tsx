@@ -10,7 +10,7 @@ const AboutPage = () => {
       className="bg-gradient-to-t from-amber-200 to-yellow-400 pb-16 w-full xl:h-screen relative pt-[80px]">
         <div className="pt-20 flex flex-col gap-5 items-center">
           <h1 className="lg:text-5xl sm:text-3xl text-2xl font-semibold pb-5">
-            Notre histoire
+            A propos de Nous
           </h1>
           <div className="w-11/12 md:px-20 lg:pb-20 px-10">
             <p className="text-center lg:text-xl lg:leading-9">
@@ -32,12 +32,10 @@ const AboutPage = () => {
                 Notre Vision
               </h2>
               <p className=" lg:leading-9 sm:block lg:text-xl text-white">
-                Nous avons l'intention de nous positionner comme leader du
-                marché dans le domaine des services publics en acquérant la
-                meilleure expertise, les technologies modernes et en adoptant la
-                durabilité. Nous travaillons avec divers clients dans des
-                milieux résidentiels et commerciaux. La sécurité de nos clients
-                et du grand public est notre priorité absolue.
+                Faire l'installation et la maintenance photovoltaïque,
+                des feux de signalition routière moderne, de la domotique,
+                de l'éclairage plublic de tous type, de la bouche d'incendie, du genie civile ainsi que de la borne de 
+                recharge pour vehicule éléctrique
               </p>
             </div>
             <div className=" lg:block hidden">
